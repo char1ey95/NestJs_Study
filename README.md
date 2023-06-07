@@ -1,23 +1,23 @@
 # Nest
 
--   Typescript 기반, NodeJs 프레임워크이다.
+- Typescript 기반, NodeJs 프레임워크이다.
 
 ```sh
 $ npm i -g @nestjs/cli
 $ nest new [project-name]
 ```
 
--   서버를 여는 명령어
+- 서버를 여는 명령어
 
-```
-npm run start
+```sh
+$ npm run start
 ```
 
 ## src 디렉토리
 
--   controller : 라우팅하는 부분
--   module : 의존성을 주입하는 부분
--   service : 비지니스 로직을 처리하는 부분
+- controller : 라우팅하는 부분
+- module : 의존성을 주입하는 부분
+- service : 비지니스 로직을 처리하는 부분
 
 `controller`로 들어온 요청을 라우팅하여 알맞은 곳에 보낸다.
 `controller`에서는 service를 주입받아 사용한다.
