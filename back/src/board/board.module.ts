@@ -9,4 +9,5 @@ import { MongooseModule } from "@nestjs/mongoose";
   controllers: [BoardController],
   providers: [BoardService]
 })
+
 export class BoardModule {}
