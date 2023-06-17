@@ -263,3 +263,4 @@ export class CatsController {
 
 >## **Provider**
 
+- Provider는 종속성(의존성 주입)으로 나타낼 수 있는 것들을 의미한다.
